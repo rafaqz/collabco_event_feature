@@ -44,10 +44,6 @@ features[variable][] = node_preview_event
 features[variable][] = node_submitted_event
 features[variable][] = pathauto_node_event_pattern
 features[views_view][] = nextevents
-features_exclude[dependencies][ctools] = ctools
-features_exclude[dependencies][strongarm] = strongarm
-features_exclude[dependencies][collabco_extension_service_feature] = collabco_extension_service_feature
-features_exclude[dependencies][collabco_view_feature] = collabco_view_feature
 features_exclude[field_base][body] = body
 project path = sites/all/modules/features
 
@@ -57,4 +53,12 @@ version = "7.x-1.0-alpha1"
 core = "7.x"
 project = "collabco_event_feature"
 datestamp = "1376967644"
+
+
+
+; Information added by drush on 2013-08-21
+version = "7.x-1.0-alpha1"
+core = "7.x"
+project = "collabco_event_feature"
+datestamp = "1377138065"
 
