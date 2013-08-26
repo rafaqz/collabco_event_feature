@@ -2,16 +2,20 @@ name = Collabco Event Feature
 core = 7.x
 package = Collabco
 php = 5.2.4
-version = 7.x-1.0-alpha1
+version = unknown
 project = collabco_event_feature
 dependencies[] = addressfield
+dependencies[] = collabco_settings_feature
+dependencies[] = ctools
 dependencies[] = date
 dependencies[] = fe_block
 dependencies[] = features
 dependencies[] = image
 dependencies[] = node
+dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = views
+datestamp = 1377474167
 features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
 features[fe_block_settings][] = views-nextevents-block
@@ -19,6 +23,7 @@ features[features_api][] = api:2
 features[field_base][] = field_date
 features[field_base][] = field_image_event
 features[field_base][] = field_location
+features[field_instance][] = comment-comment_node_event-comment_body
 features[field_instance][] = node-event-body
 features[field_instance][] = node-event-field_date
 features[field_instance][] = node-event-field_image_event
@@ -45,20 +50,3 @@ features[variable][] = node_submitted_event
 features[variable][] = pathauto_node_event_pattern
 features[views_view][] = nextevents
 features_exclude[field_base][body] = body
-project path = sites/all/modules/features
-
-
-; Information added by drush on 2013-08-19
-version = "7.x-1.0-alpha1"
-core = "7.x"
-project = "collabco_event_feature"
-datestamp = "1376967644"
-
-
-
-; Information added by drush on 2013-08-21
-version = "7.x-1.0-alpha1"
-core = "7.x"
-project = "collabco_event_feature"
-datestamp = "1377138065"
-
