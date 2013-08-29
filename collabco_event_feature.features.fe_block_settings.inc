@@ -22,10 +22,10 @@ function collabco_event_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'openhub' => array(
+      'custom_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'openhub',
+        'theme' => 'custom_theme',
         'weight' => 0,
       ),
       'seven' => array(

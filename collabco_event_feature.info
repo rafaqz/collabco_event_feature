@@ -50,3 +50,10 @@ features[variable][] = node_submitted_event
 features[variable][] = pathauto_node_event_pattern
 features[views_view][] = nextevents
 features_exclude[field_base][body] = body
+
+
+; Information added by drush on 2013-08-28
+version = "unknown"
+project = "collabco_event_feature"
+datestamp = "1377754368"
+
