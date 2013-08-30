@@ -15,7 +15,7 @@ dependencies[] = node
 dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = views
-datestamp = 1377474167
+datestamp = 1377761544
 features[ctools][] = strongarm:strongarm:1
 features[ctools][] = views:views_default:3.0
 features[fe_block_settings][] = views-nextevents-block
@@ -50,10 +50,3 @@ features[variable][] = node_submitted_event
 features[variable][] = pathauto_node_event_pattern
 features[views_view][] = nextevents
 features_exclude[field_base][body] = body
-
-
-; Information added by drush on 2013-08-28
-version = "unknown"
-project = "collabco_event_feature"
-datestamp = "1377754368"
-
