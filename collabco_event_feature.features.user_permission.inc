@@ -26,6 +26,8 @@ function collabco_event_feature_user_default_permissions() {
     'name' => 'delete any event content',
     'roles' => array(
       'Admin' => 'Admin',
+      'Community Moderator' => 'Community Moderator',
+      'Content Manager' => 'Content Manager',
     ),
     'module' => 'node',
   );
